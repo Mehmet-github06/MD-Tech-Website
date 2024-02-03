@@ -1,10 +1,26 @@
 .banner {
-    background-image: url("https://picsum.photos/id/24/600/400");
-      no-repeat  center;
-    background-size: cover;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    color:black ;
-    height: 100vh;
-    text-shadow: 0px 3px 3px black;
-  }
+  background-image: url("https://picsum.photos/id/24/600/400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: black;
+  height: 100vh;
+  text-shadow: 0px 3px 3px black;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.circle i {
+  position: relative;
+  top: 30px;
+}
